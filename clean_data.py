@@ -7,7 +7,7 @@ import json
 import unicodedata
 
 filename = sys.argv[1]
-regions = ['NA', 'APJ', 'EMEA', 'LATAM']
+regions = ['AMS', 'APJ', 'EMEA', 'LATAM']
 ws = 'http://restcountries.eu/rest/v1/name/'
 
 if not os.path.isfile(filename):
@@ -30,10 +30,16 @@ with open(filename) as fp:
 			subregion = splitted[6]
 		
 		country_info = json.loads(urllib2.urlopen(ws+name).read())[0]
+		
 		tz = []
 		for t in country_info['timezones']:
 			tz.append(unicodedata.normalize('NFKD', t).encode('ascii','ignore'))
 		
+		curr = []
+		for c in country_info['currencies']:
+			curr.append(unicodedata.normalize('NFKD', c).encode('ascii','ignore'))
+		
+
 		acronym = ''
 		if region == 'Europe' or region == 'Africa':
 			acronym = 'EMEA'
@@ -46,11 +52,11 @@ with open(filename) as fp:
 			acronym = 'APJ'
 		elif region == 'Americas':
 			if 'Northern' in subregion:
-				acronym = 'NA'
+				acronym = 'AMS'
 			else:
 				acronym = 'LATAM'
 
 		if acronym == '':
 			continue
 
-		print '%s, %s, %s' % (name, acronym, tz)
+		print '%s, %s, "%s", "%s"' % (name, acronym, tz, curr)
