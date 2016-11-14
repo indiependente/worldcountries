@@ -6,57 +6,49 @@ import urllib2
 import json
 import unicodedata
 
-filename = sys.argv[1]
+
 regions = ['AMS', 'APJ', 'EMEA', 'LATAM']
-ws = 'http://restcountries.eu/rest/v1/name/'
+api = 'http://restcountries.eu/rest/v1/all'
 
-if not os.path.isfile(filename):
-	print 'File not found: ' + filename
-	exit(1)
 
-print 'Country, Region, Timezone'
+print 'Country, Region, Timezone, Currencies'
 
-with open(filename) as fp:
-	for line in fp:
-		splitted = line.split(',')
-		name = splitted[0]
-		if splitted[0][0] == '"':
-			name += splitted[1]
-			name = name.replace('"', '')
-			region = splitted[6]
-			subregion = splitted[7]
-		else:
-			region = splitted[5]
-			subregion = splitted[6]
-		
-		country_info = json.loads(urllib2.urlopen(ws+name).read())[0]
-		
-		tz = []
-		for t in country_info['timezones']:
-			tz.append(unicodedata.normalize('NFKD', t).encode('ascii','ignore'))
-		
-		curr = []
-		for c in country_info['currencies']:
-			curr.append(unicodedata.normalize('NFKD', c).encode('ascii','ignore'))
-		
+def u2a(ustr):
+	return unicodedata.normalize('NFKD', ustr).encode('ascii','ignore')
 
-		acronym = ''
-		if region == 'Europe' or region == 'Africa':
+countries = json.loads(urllib2.urlopen(api).read())
+
+for c in countries:
+
+	tz = []
+	for t in c['timezones']:
+		tz.append(u2a(t))
+	
+	currs = []
+	for cu in c['currencies']:
+		currs.append(u2a(cu))
+	
+
+	acronym = ''
+	region = c['region']
+	subregion = c['subregion']
+	
+	if region == 'Europe' or region == 'Africa':
+		acronym = 'EMEA'
+	elif region == 'Asia':
+		if 'Western' in subregion:
 			acronym = 'EMEA'
-		elif region == 'Asia':
-			if 'Western' in subregion:
-				acronym = 'EMEA'
-			else:
-				acronym = 'APJ'
-		elif region == 'Oceania':
+		else:
 			acronym = 'APJ'
-		elif region == 'Americas':
-			if 'Northern' in subregion:
-				acronym = 'AMS'
-			else:
-				acronym = 'LATAM'
+	elif region == 'Oceania':
+		acronym = 'APJ'
+	elif region == 'Americas':
+		if 'Northern' in subregion:
+			acronym = 'AMS'
+		else:
+			acronym = 'LATAM'
 
-		if acronym == '':
-			continue
+	if acronym == '':
+		continue
 
-		print '%s, %s, "%s", "%s"' % (name, acronym, tz, curr)
+	print '%s, %s, "%s", "%s"' % (u2a(c['name']), acronym, tz, currs)
