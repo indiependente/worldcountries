@@ -9,7 +9,7 @@ regions = ['AMS', 'APJ', 'EMEA', 'LATAM']
 api = 'http://restcountries.eu/rest/v1/all'
 
 
-print 'Country, Region, Timezone, Currencies'
+print 'Country, Region, Currencies'
 
 def u2a(ustr):
 	return unicodedata.normalize('NFKD', ustr).encode('ascii','ignore')
@@ -18,13 +18,11 @@ countries = json.loads(urllib2.urlopen(api).read())
 
 for c in countries:
 
-	tz = []
-	for t in c['timezones']:
-		tz.append(u2a(t))
-	
-	currs = []
+	currs = ''
 	for cu in c['currencies']:
-		currs.append(u2a(cu))
+		if currs != '':
+			currs += '_'
+		currs += u2a(cu)
 	
 
 	acronym = ''
@@ -49,4 +47,4 @@ for c in countries:
 	if acronym == '':
 		continue
 
-	print '%s, %s, "%s", "%s"' % (u2a(c['name']), acronym, tz, currs)
+	print '%s, %s, %s' % (u2a(c['name']), acronym, currs)

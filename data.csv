@@ -1,248 +1,248 @@
-Country, Region, Timezone, Currencies
-Afghanistan, APJ, "['UTC+04:30']", "['AFN']"
-Aland Islands, EMEA, "['UTC+02:00']", "['EUR']"
-Albania, EMEA, "['UTC+01:00']", "['ALL']"
-Algeria, EMEA, "['UTC+01:00']", "['DZD']"
-American Samoa, APJ, "['UTC-11:00']", "['USD']"
-Andorra, EMEA, "['UTC+01:00']", "['EUR']"
-Angola, EMEA, "['UTC+01:00']", "['AOA']"
-Anguilla, LATAM, "['UTC-04:00']", "['XCD']"
-Antigua and Barbuda, LATAM, "['UTC-04:00']", "['XCD']"
-Argentina, LATAM, "['UTC-03:00']", "['ARS']"
-Armenia, EMEA, "['UTC+04:00']", "['AMD']"
-Aruba, LATAM, "['UTC-04:00']", "['AWG']"
-Australia, APJ, "['UTC+05:00', 'UTC+06:30', 'UTC+07:00', 'UTC+08:00', 'UTC+09:30', 'UTC+10:00', 'UTC+10:30', 'UTC+11:30']", "['AUD']"
-Austria, EMEA, "['UTC+01:00']", "['EUR']"
-Azerbaijan, EMEA, "['UTC+04:00']", "['AZN']"
-The Bahamas, LATAM, "['UTC-05:00']", "['BSD']"
-Bahrain, EMEA, "['UTC+03:00']", "['BHD']"
-Bangladesh, APJ, "['UTC+06:00']", "['BDT']"
-Barbados, LATAM, "['UTC-04:00']", "['BBD']"
-Belarus, EMEA, "['UTC+03:00']", "['BYR']"
-Belgium, EMEA, "['UTC+01:00']", "['EUR']"
-Belize, LATAM, "['UTC-06:00']", "['BZD']"
-Benin, EMEA, "['UTC+01:00']", "['XOF']"
-Bermuda, AMS, "['UTC-04:00']", "['BMD']"
-Bhutan, APJ, "['UTC+06:00']", "['BTN', 'INR']"
-Bolivia, LATAM, "['UTC-04:00']", "['BOB', 'BOV']"
-Bonaire, LATAM, "['UTC-04:00']", "['USD']"
-Bosnia and Herzegovina, EMEA, "['UTC+01:00']", "['BAM']"
-Botswana, EMEA, "['UTC+02:00']", "['BWP']"
-Brazil, LATAM, "['UTC-05:00', 'UTC-04:00', 'UTC-03:00', 'UTC-02:00']", "['BRL']"
-British Indian Ocean Territory, EMEA, "['UTC+06:00']", "['USD']"
-United States Minor Outlying Islands, AMS, "['UTC-11:00', 'UTC-10:00', 'UTC+12:00']", "['USD']"
-Virgin Islands (British), LATAM, "['UTC-04:00']", "['USD']"
-Virgin Islands (U.S.), LATAM, "['UTC-04:00']", "['USD']"
-Brunei, APJ, "['UTC+08:00']", "['BND']"
-Bulgaria, EMEA, "['UTC+02:00']", "['BGN']"
-Burkina Faso, EMEA, "['UTC']", "['XOF']"
-Burundi, EMEA, "['UTC+02:00']", "['BIF']"
-Cambodia, APJ, "['UTC+07:00']", "['KHR']"
-Cameroon, EMEA, "['UTC+01:00']", "['XAF']"
-Canada, AMS, "['UTC-08:00', 'UTC-07:00', 'UTC-06:00', 'UTC-05:00', 'UTC-04:00', 'UTC-03:30']", "['CAD']"
-Cape Verde, EMEA, "['UTC-01:00']", "['CVE']"
-Cayman Islands, LATAM, "['UTC-05:00']", "['KYD']"
-Central African Republic, EMEA, "['UTC+01:00']", "['XAF']"
-Chad, EMEA, "['UTC+01:00']", "['XAF']"
-Chile, LATAM, "['UTC-06:00', 'UTC-04:00']", "['CLF', 'CLP']"
-China, APJ, "['UTC+08:00']", "['CNY']"
-Christmas Island, APJ, "['UTC+07:00']", "['AUD']"
-Cocos (Keeling) Islands, APJ, "['UTC+06:30']", "['AUD']"
-Colombia, LATAM, "['UTC-05:00']", "['COP']"
-Comoros, EMEA, "['UTC+03:00']", "['KMF']"
-Republic of the Congo, EMEA, "['UTC+01:00']", "['XAF']"
-Democratic Republic of the Congo, EMEA, "['UTC+01:00', 'UTC+02:00']", "['CDF']"
-Cook Islands, APJ, "['UTC-10:00']", "['NZD']"
-Costa Rica, LATAM, "['UTC-06:00']", "['CRC']"
-Croatia, EMEA, "['UTC+01:00']", "['HRK']"
-Cuba, LATAM, "['UTC-05:00']", "['CUC', 'CUP']"
-Curacao, LATAM, "['UTC-04:00']", "['ANG']"
-Cyprus, EMEA, "['UTC+02:00']", "['EUR']"
-Czech Republic, EMEA, "['UTC+01:00']", "['CZK']"
-Denmark, EMEA, "['UTC-04:00', 'UTC-03:00', 'UTC-01:00', 'UTC', 'UTC+01:00']", "['DKK']"
-Djibouti, EMEA, "['UTC+03:00']", "['DJF']"
-Dominica, LATAM, "['UTC-04:00']", "['XCD']"
-Dominican Republic, LATAM, "['UTC-04:00']", "['DOP']"
-Ecuador, LATAM, "['UTC-06:00', 'UTC-05:00']", "['USD']"
-Egypt, EMEA, "['UTC+02:00']", "['EGP']"
-El Salvador, LATAM, "['UTC-06:00']", "['SVC', 'USD']"
-Equatorial Guinea, EMEA, "['UTC+01:00']", "['XAF']"
-Eritrea, EMEA, "['UTC+03:00']", "['ERN']"
-Estonia, EMEA, "['UTC+02:00']", "['EUR']"
-Ethiopia, EMEA, "['UTC+03:00']", "['ETB']"
-Falkland Islands, LATAM, "['UTC-04:00']", "['FKP']"
-Faroe Islands, EMEA, "['UTC+00:00']", "['DKK']"
-Fiji, APJ, "['UTC+12:00']", "['FJD']"
-Finland, EMEA, "['UTC+02:00']", "['EUR']"
-France, EMEA, "['UTC-10:00', 'UTC-09:30', 'UTC-09:00', 'UTC-08:00', 'UTC-04:00', 'UTC-03:00', 'UTC+01:00', 'UTC+03:00', 'UTC+04:00', 'UTC+05:00', 'UTC+11:00', 'UTC+12:00']", "['EUR']"
-French Guiana, LATAM, "['UTC-03:00']", "['EUR']"
-French Polynesia, APJ, "['UTC-10:00', 'UTC-09:30', 'UTC-09:00']", "['XPF']"
-French Southern and Antarctic Lands, EMEA, "['UTC+05:00']", "['EUR']"
-Gabon, EMEA, "['UTC+01:00']", "['XAF']"
-The Gambia, EMEA, "['UTC+00:00']", "['GMD']"
-Georgia, EMEA, "['UTC-05:00']", "['GEL']"
-Germany, EMEA, "['UTC+01:00']", "['EUR']"
-Ghana, EMEA, "['UTC']", "['GHS']"
-Gibraltar, EMEA, "['UTC+01:00']", "['GIP']"
-Greece, EMEA, "['UTC+02:00']", "['EUR']"
-Greenland, AMS, "['UTC-04:00', 'UTC-03:00', 'UTC-01:00', 'UTC+00:00']", "['DKK']"
-Grenada, LATAM, "['UTC-04:00']", "['XCD']"
-Guadeloupe, LATAM, "['UTC-04:00']", "['EUR']"
-Guam, APJ, "['UTC+10:00']", "['USD']"
-Guatemala, LATAM, "['UTC-06:00']", "['GTQ']"
-Guernsey, EMEA, "['UTC+00:00']", "['GBP']"
-Guinea, EMEA, "['UTC']", "['GNF']"
-Guinea-Bissau, EMEA, "['UTC']", "['XOF']"
-Guyana, LATAM, "['UTC-04:00']", "['GYD']"
-Haiti, LATAM, "['UTC-05:00']", "['HTG', 'USD']"
-Holy See, EMEA, "['UTC+01:00']", "['EUR']"
-Honduras, LATAM, "['UTC-06:00']", "['HNL']"
-Hong Kong, APJ, "['UTC+08:00']", "['HKD']"
-Hungary, EMEA, "['UTC+01:00']", "['HUF']"
-Iceland, EMEA, "['UTC']", "['ISK']"
-India, APJ, "['UTC+05:30']", "['INR']"
-Indonesia, APJ, "['UTC+07:00', 'UTC+08:00', 'UTC+09:00']", "['IDR']"
-Ivory Coast, EMEA, "['UTC']", "['XOF']"
-Iran, APJ, "['UTC+03:30']", "['IRR']"
-Iraq, EMEA, "['UTC+03:00']", "['IQD']"
-Republic of Ireland, EMEA, "['UTC']", "['EUR']"
-Isle of Man, EMEA, "['UTC+00:00']", "['GBP']"
-Israel, EMEA, "['UTC+02:00']", "['ILS']"
-Italy, EMEA, "['UTC+01:00']", "['EUR']"
-Jamaica, LATAM, "['UTC-05:00']", "['JMD']"
-Japan, APJ, "['UTC+09:00']", "['JPY']"
-Jersey, EMEA, "['UTC+01:00']", "['GBP']"
-Jordan, EMEA, "['UTC+03:00']", "['JOD']"
-Kazakhstan, APJ, "['UTC+05:00', 'UTC+06:00']", "['KZT']"
-Kenya, EMEA, "['UTC+03:00']", "['KES']"
-Kiribati, APJ, "['UTC+12:00', 'UTC+13:00', 'UTC+14:00']", "['AUD']"
-Kuwait, EMEA, "['UTC+03:00']", "['KWD']"
-Kyrgyzstan, APJ, "['UTC+06:00']", "['KGS']"
-Laos, APJ, "['UTC+07:00']", "['LAK']"
-Latvia, EMEA, "['UTC+02:00']", "['EUR']"
-Lebanon, EMEA, "['UTC+02:00']", "['LBP']"
-Lesotho, EMEA, "['UTC+02:00']", "['LSL', 'ZAR']"
-Liberia, EMEA, "['UTC']", "['LRD']"
-Libya, EMEA, "['UTC+01:00']", "['LYD']"
-Liechtenstein, EMEA, "['UTC+01:00']", "['CHF']"
-Lithuania, EMEA, "['UTC+02:00']", "['EUR']"
-Luxembourg, EMEA, "['UTC+01:00']", "['EUR']"
-Macau, APJ, "['UTC+08:00']", "['MOP']"
-Republic of Macedonia, EMEA, "['UTC+01:00']", "['MKD']"
-Madagascar, EMEA, "['UTC+03:00']", "['MGA']"
-Malawi, EMEA, "['UTC+02:00']", "['MWK']"
-Malaysia, APJ, "['UTC+08:00']", "['MYR']"
-Maldives, APJ, "['UTC+05:00']", "['MVR']"
-Mali, EMEA, "['UTC']", "['XOF']"
-Malta, EMEA, "['UTC+01:00']", "['EUR']"
-Marshall Islands, APJ, "['UTC+12:00']", "['USD']"
-Martinique, LATAM, "['UTC-04:00']", "['EUR']"
-Mauritania, EMEA, "['UTC']", "['MRO']"
-Mauritius, EMEA, "['UTC+04:00']", "['MUR']"
-Mayotte, EMEA, "['UTC+03:00']", "['EUR']"
-Mexico, LATAM, "['UTC-08:00', 'UTC-07:00', 'UTC-06:00']", "['MXN']"
-Federated States of Micronesia, APJ, "['UTC+10:00', 'UTC+11']", "['USD']"
-Moldova, EMEA, "['UTC+02:00']", "['MDL']"
-Monaco, EMEA, "['UTC+01:00']", "['EUR']"
-Mongolia, APJ, "['UTC+07:00', 'UTC+08:00']", "['MNT']"
-Montenegro, EMEA, "['UTC+01:00']", "['EUR']"
-Montserrat, LATAM, "['UTC-04:00']", "['XCD']"
-Morocco, EMEA, "['UTC']", "['MAD']"
-Mozambique, EMEA, "['UTC+02:00']", "['MZN']"
-Myanmar, APJ, "['UTC+06:30']", "['MMK']"
-Namibia, EMEA, "['UTC+01:00']", "['NAD', 'ZAR']"
-Nauru, APJ, "['UTC+12:00']", "['AUD']"
-Nepal, APJ, "['UTC+05:45']", "['NPR']"
-Netherlands, EMEA, "['UTC-04:00', 'UTC+01:00']", "['EUR']"
-New Caledonia, APJ, "['UTC+11:00']", "['XPF']"
-New Zealand, APJ, "['UTC-11:00', 'UTC-10:00', 'UTC+12:00', 'UTC+12:45', 'UTC+13:00']", "['NZD']"
-Nicaragua, LATAM, "['UTC-06:00']", "['NIO']"
-Niger, EMEA, "['UTC+01:00']", "['XOF']"
-Nigeria, EMEA, "['UTC+01:00']", "['NGN']"
-Niue, APJ, "['UTC-11:00']", "['NZD']"
-Norfolk Island, APJ, "['UTC+11:30']", "['AUD']"
-North Korea, APJ, "['UTC+09:00']", "['KPW']"
-Northern Mariana Islands, APJ, "['UTC+10:00']", "['USD']"
-Norway, EMEA, "['UTC+01:00']", "['NOK']"
-Oman, EMEA, "['UTC+04:00']", "['OMR']"
-Pakistan, APJ, "['UTC+05:00']", "['PKR']"
-Palau, APJ, "['UTC+09:00']", "['USD']"
-Palestine, EMEA, "['UTC+02:00']", "['ILS']"
-Panama, LATAM, "['UTC-05:00']", "['PAB', 'USD']"
-Papua New Guinea, APJ, "['UTC+10:00']", "['PGK']"
-Paraguay, LATAM, "['UTC-04:00']", "['PYG']"
-Peru, LATAM, "['UTC-05:00']", "['PEN']"
-Philippines, APJ, "['UTC+08:00']", "['PHP']"
-Pitcairn Islands, APJ, "['UTC-08:00']", "['NZD']"
-Poland, EMEA, "['UTC+01:00']", "['PLN']"
-Portugal, EMEA, "['UTC-01:00', 'UTC']", "['EUR']"
-Puerto Rico, LATAM, "['UTC-04:00']", "['USD']"
-Qatar, EMEA, "['UTC+03:00']", "['QAR']"
-Republic of Kosovo, EMEA, "['UTC+01:00']", "['EUR']"
-Reunion, EMEA, "['UTC+04:00']", "['EUR']"
-Romania, EMEA, "['UTC+02:00']", "['RON']"
-Russia, EMEA, "['UTC+03:00', 'UTC+04:00', 'UTC+06:00', 'UTC+07:00', 'UTC+08:00', 'UTC+09:00', 'UTC+10:00', 'UTC+11:00', 'UTC+12:00']", "['RUB']"
-Rwanda, EMEA, "['UTC+02:00']", "['RWF']"
-Saint Barthelemy, LATAM, "['UTC-04:00']", "['EUR']"
-Saint Helena, EMEA, "['UTC+00:00']", "['SHP']"
-Saint Kitts and Nevis, LATAM, "['UTC-04:00']", "['XCD']"
-Saint Lucia, LATAM, "['UTC-04:00']", "['XCD']"
-Saint Martin, LATAM, "['UTC-04:00']", "['EUR']"
-Saint Pierre and Miquelon, AMS, "['UTC-03:00']", "['EUR']"
-Saint Vincent and the Grenadines, LATAM, "['UTC-04:00']", "['XCD']"
-Samoa, APJ, "['UTC+13:00']", "['WST']"
-San Marino, EMEA, "['UTC+01:00']", "['EUR']"
-Sao Tome and Principe, EMEA, "['UTC']", "['STD']"
-Saudi Arabia, EMEA, "['UTC+03:00']", "['SAR']"
-Senegal, EMEA, "['UTC']", "['XOF']"
-Serbia, EMEA, "['UTC+01:00']", "['RSD']"
-Seychelles, EMEA, "['UTC+04:00']", "['SCR']"
-Sierra Leone, EMEA, "['UTC']", "['SLL']"
-Singapore, APJ, "['UTC+08:00']", "['SGD']"
-Sint Maarten, LATAM, "['UTC-04:00']", "['ANG']"
-Slovakia, EMEA, "['UTC+01:00']", "['EUR']"
-Slovenia, EMEA, "['UTC+01:00']", "['EUR']"
-Solomon Islands, APJ, "['UTC+11:00']", "['SBD']"
-Somalia, EMEA, "['UTC+03:00']", "['SOS']"
-South Africa, EMEA, "['UTC+02:00']", "['ZAR']"
-South Georgia, LATAM, "['UTC-02:00']", "['GBP']"
-South Korea, APJ, "['UTC+09:00']", "['KRW']"
-South Sudan, EMEA, "['UTC+03:00']", "['SSP']"
-Spain, EMEA, "['UTC', 'UTC+01:00']", "['EUR']"
-Sri Lanka, APJ, "['UTC+05:30']", "['LKR']"
-Sudan, EMEA, "['UTC+03:00']", "['SDG']"
-Suriname, LATAM, "['UTC-03:00']", "['SRD']"
-Svalbard and Jan Mayen, EMEA, "['UTC+01:00']", "['NOK']"
-Swaziland, EMEA, "['UTC+02:00']", "['SZL']"
-Sweden, EMEA, "['UTC+01:00']", "['SEK']"
-Switzerland, EMEA, "['UTC+01:00']", "['CHE', 'CHF', 'CHW']"
-Syria, EMEA, "['UTC+02:00']", "['SYP']"
-Taiwan, APJ, "['UTC+08:00']", "['TWD']"
-Tajikistan, APJ, "['UTC+05:00']", "['TJS']"
-Tanzania, EMEA, "['UTC+03:00']", "['TZS']"
-Thailand, APJ, "['UTC+07:00']", "['THB']"
-East Timor, APJ, "['UTC+09:00']", "['USD']"
-Togo, EMEA, "['UTC']", "['XOF']"
-Tokelau, APJ, "['UTC+13:00']", "['NZD']"
-Tonga, APJ, "['UTC+13:00']", "['TOP']"
-Trinidad and Tobago, LATAM, "['UTC-04:00']", "['TTD']"
-Tunisia, EMEA, "['UTC+01:00']", "['TND']"
-Turkey, EMEA, "['UTC+02:00']", "['TRY']"
-Turkmenistan, APJ, "['UTC+05:00']", "['TMT']"
-Turks and Caicos Islands, LATAM, "['UTC-04:00']", "['USD']"
-Tuvalu, APJ, "['UTC+12:00']", "['AUD']"
-Uganda, EMEA, "['UTC+03:00']", "['UGX']"
-Ukraine, EMEA, "['UTC+02:00']", "['UAH']"
-United Arab Emirates, EMEA, "['UTC+04']", "['AED']"
-United Kingdom, EMEA, "['UTC-08:00', 'UTC-05:00', 'UTC-04:00', 'UTC-03:00', 'UTC-02:00', 'UTC', 'UTC+01:00', 'UTC+02:00', 'UTC+06:00']", "['GBP']"
-United States, AMS, "['UTC-12:00', 'UTC-11:00', 'UTC-10:00', 'UTC-09:00', 'UTC-08:00', 'UTC-07:00', 'UTC-06:00', 'UTC-05:00', 'UTC-04:00', 'UTC+10:00', 'UTC+12:00']", "['USD', 'USN', 'USS']"
-Uruguay, LATAM, "['UTC-03:00']", "['UYI', 'UYU']"
-Uzbekistan, APJ, "['UTC+05:00']", "['UZS']"
-Vanuatu, APJ, "['UTC+11:00']", "['VUV']"
-Venezuela, LATAM, "['UTC-04:30']", "['VEF']"
-Vietnam, APJ, "['UTC+07:00']", "['VND']"
-Wallis and Futuna, APJ, "['UTC+12:00']", "['XPF']"
-Western Sahara, EMEA, "['UTC+00:00']", "['MAD', 'DZD', 'MRO']"
-Yemen, EMEA, "['UTC+03:00']", "['YER']"
-Zambia, EMEA, "['UTC+02:00']", "['ZMK']"
-Zimbabwe, EMEA, "['UTC+02:00']", "['USD']"
+Country, Region, Currencies
+Afghanistan, APJ, AFN
+Aland Islands, EMEA, EUR
+Albania, EMEA, ALL
+Algeria, EMEA, DZD
+American Samoa, APJ, USD
+Andorra, EMEA, EUR
+Angola, EMEA, AOA
+Anguilla, LATAM, XCD
+Antigua and Barbuda, LATAM, XCD
+Argentina, LATAM, ARS
+Armenia, EMEA, AMD
+Aruba, LATAM, AWG
+Australia, APJ, AUD
+Austria, EMEA, EUR
+Azerbaijan, EMEA, AZN
+The Bahamas, LATAM, BSD
+Bahrain, EMEA, BHD
+Bangladesh, APJ, BDT
+Barbados, LATAM, BBD
+Belarus, EMEA, BYR
+Belgium, EMEA, EUR
+Belize, LATAM, BZD
+Benin, EMEA, XOF
+Bermuda, AMS, BMD
+Bhutan, APJ, BTN_INR
+Bolivia, LATAM, BOB_BOV
+Bonaire, LATAM, USD
+Bosnia and Herzegovina, EMEA, BAM
+Botswana, EMEA, BWP
+Brazil, LATAM, BRL
+British Indian Ocean Territory, EMEA, USD
+United States Minor Outlying Islands, AMS, USD
+Virgin Islands (British), LATAM, USD
+Virgin Islands (U.S.), LATAM, USD
+Brunei, APJ, BND
+Bulgaria, EMEA, BGN
+Burkina Faso, EMEA, XOF
+Burundi, EMEA, BIF
+Cambodia, APJ, KHR
+Cameroon, EMEA, XAF
+Canada, AMS, CAD
+Cape Verde, EMEA, CVE
+Cayman Islands, LATAM, KYD
+Central African Republic, EMEA, XAF
+Chad, EMEA, XAF
+Chile, LATAM, CLF_CLP
+China, APJ, CNY
+Christmas Island, APJ, AUD
+Cocos (Keeling) Islands, APJ, AUD
+Colombia, LATAM, COP
+Comoros, EMEA, KMF
+Republic of the Congo, EMEA, XAF
+Democratic Republic of the Congo, EMEA, CDF
+Cook Islands, APJ, NZD
+Costa Rica, LATAM, CRC
+Croatia, EMEA, HRK
+Cuba, LATAM, CUC_CUP
+Curacao, LATAM, ANG
+Cyprus, EMEA, EUR
+Czech Republic, EMEA, CZK
+Denmark, EMEA, DKK
+Djibouti, EMEA, DJF
+Dominica, LATAM, XCD
+Dominican Republic, LATAM, DOP
+Ecuador, LATAM, USD
+Egypt, EMEA, EGP
+El Salvador, LATAM, SVC_USD
+Equatorial Guinea, EMEA, XAF
+Eritrea, EMEA, ERN
+Estonia, EMEA, EUR
+Ethiopia, EMEA, ETB
+Falkland Islands, LATAM, FKP
+Faroe Islands, EMEA, DKK
+Fiji, APJ, FJD
+Finland, EMEA, EUR
+France, EMEA, EUR
+French Guiana, LATAM, EUR
+French Polynesia, APJ, XPF
+French Southern and Antarctic Lands, EMEA, EUR
+Gabon, EMEA, XAF
+The Gambia, EMEA, GMD
+Georgia, EMEA, GEL
+Germany, EMEA, EUR
+Ghana, EMEA, GHS
+Gibraltar, EMEA, GIP
+Greece, EMEA, EUR
+Greenland, AMS, DKK
+Grenada, LATAM, XCD
+Guadeloupe, LATAM, EUR
+Guam, APJ, USD
+Guatemala, LATAM, GTQ
+Guernsey, EMEA, GBP
+Guinea, EMEA, GNF
+Guinea-Bissau, EMEA, XOF
+Guyana, LATAM, GYD
+Haiti, LATAM, HTG_USD
+Holy See, EMEA, EUR
+Honduras, LATAM, HNL
+Hong Kong, APJ, HKD
+Hungary, EMEA, HUF
+Iceland, EMEA, ISK
+India, APJ, INR
+Indonesia, APJ, IDR
+Ivory Coast, EMEA, XOF
+Iran, APJ, IRR
+Iraq, EMEA, IQD
+Republic of Ireland, EMEA, EUR
+Isle of Man, EMEA, GBP
+Israel, EMEA, ILS
+Italy, EMEA, EUR
+Jamaica, LATAM, JMD
+Japan, APJ, JPY
+Jersey, EMEA, GBP
+Jordan, EMEA, JOD
+Kazakhstan, APJ, KZT
+Kenya, EMEA, KES
+Kiribati, APJ, AUD
+Kuwait, EMEA, KWD
+Kyrgyzstan, APJ, KGS
+Laos, APJ, LAK
+Latvia, EMEA, EUR
+Lebanon, EMEA, LBP
+Lesotho, EMEA, LSL_ZAR
+Liberia, EMEA, LRD
+Libya, EMEA, LYD
+Liechtenstein, EMEA, CHF
+Lithuania, EMEA, EUR
+Luxembourg, EMEA, EUR
+Macau, APJ, MOP
+Republic of Macedonia, EMEA, MKD
+Madagascar, EMEA, MGA
+Malawi, EMEA, MWK
+Malaysia, APJ, MYR
+Maldives, APJ, MVR
+Mali, EMEA, XOF
+Malta, EMEA, EUR
+Marshall Islands, APJ, USD
+Martinique, LATAM, EUR
+Mauritania, EMEA, MRO
+Mauritius, EMEA, MUR
+Mayotte, EMEA, EUR
+Mexico, LATAM, MXN
+Federated States of Micronesia, APJ, USD
+Moldova, EMEA, MDL
+Monaco, EMEA, EUR
+Mongolia, APJ, MNT
+Montenegro, EMEA, EUR
+Montserrat, LATAM, XCD
+Morocco, EMEA, MAD
+Mozambique, EMEA, MZN
+Myanmar, APJ, MMK
+Namibia, EMEA, NAD_ZAR
+Nauru, APJ, AUD
+Nepal, APJ, NPR
+Netherlands, EMEA, EUR
+New Caledonia, APJ, XPF
+New Zealand, APJ, NZD
+Nicaragua, LATAM, NIO
+Niger, EMEA, XOF
+Nigeria, EMEA, NGN
+Niue, APJ, NZD
+Norfolk Island, APJ, AUD
+North Korea, APJ, KPW
+Northern Mariana Islands, APJ, USD
+Norway, EMEA, NOK
+Oman, EMEA, OMR
+Pakistan, APJ, PKR
+Palau, APJ, USD
+Palestine, EMEA, ILS
+Panama, LATAM, PAB_USD
+Papua New Guinea, APJ, PGK
+Paraguay, LATAM, PYG
+Peru, LATAM, PEN
+Philippines, APJ, PHP
+Pitcairn Islands, APJ, NZD
+Poland, EMEA, PLN
+Portugal, EMEA, EUR
+Puerto Rico, LATAM, USD
+Qatar, EMEA, QAR
+Republic of Kosovo, EMEA, EUR
+Reunion, EMEA, EUR
+Romania, EMEA, RON
+Russia, EMEA, RUB
+Rwanda, EMEA, RWF
+Saint Barthelemy, LATAM, EUR
+Saint Helena, EMEA, SHP
+Saint Kitts and Nevis, LATAM, XCD
+Saint Lucia, LATAM, XCD
+Saint Martin, LATAM, EUR
+Saint Pierre and Miquelon, AMS, EUR
+Saint Vincent and the Grenadines, LATAM, XCD
+Samoa, APJ, WST
+San Marino, EMEA, EUR
+Sao Tome and Principe, EMEA, STD
+Saudi Arabia, EMEA, SAR
+Senegal, EMEA, XOF
+Serbia, EMEA, RSD
+Seychelles, EMEA, SCR
+Sierra Leone, EMEA, SLL
+Singapore, APJ, SGD
+Sint Maarten, LATAM, ANG
+Slovakia, EMEA, EUR
+Slovenia, EMEA, EUR
+Solomon Islands, APJ, SBD
+Somalia, EMEA, SOS
+South Africa, EMEA, ZAR
+South Georgia, LATAM, GBP
+South Korea, APJ, KRW
+South Sudan, EMEA, SSP
+Spain, EMEA, EUR
+Sri Lanka, APJ, LKR
+Sudan, EMEA, SDG
+Suriname, LATAM, SRD
+Svalbard and Jan Mayen, EMEA, NOK
+Swaziland, EMEA, SZL
+Sweden, EMEA, SEK
+Switzerland, EMEA, CHE_CHF_CHW
+Syria, EMEA, SYP
+Taiwan, APJ, TWD
+Tajikistan, APJ, TJS
+Tanzania, EMEA, TZS
+Thailand, APJ, THB
+East Timor, APJ, USD
+Togo, EMEA, XOF
+Tokelau, APJ, NZD
+Tonga, APJ, TOP
+Trinidad and Tobago, LATAM, TTD
+Tunisia, EMEA, TND
+Turkey, EMEA, TRY
+Turkmenistan, APJ, TMT
+Turks and Caicos Islands, LATAM, USD
+Tuvalu, APJ, AUD
+Uganda, EMEA, UGX
+Ukraine, EMEA, UAH
+United Arab Emirates, EMEA, AED
+United Kingdom, EMEA, GBP
+United States, AMS, USD_USN_USS
+Uruguay, LATAM, UYI_UYU
+Uzbekistan, APJ, UZS
+Vanuatu, APJ, VUV
+Venezuela, LATAM, VEF
+Vietnam, APJ, VND
+Wallis and Futuna, APJ, XPF
+Western Sahara, EMEA, MAD_DZD_MRO
+Yemen, EMEA, YER
+Zambia, EMEA, ZMK
+Zimbabwe, EMEA, USD
